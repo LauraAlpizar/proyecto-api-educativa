@@ -1,0 +1,32 @@
+API Plataforma Educativa
+
+Descripción:
+Este proyecto implementa un servicio API HTTP para una plataforma educativa, relacionado con la entrega anterior desarrollada en React. La API ofrece recursos para cursos, notas, galería, anuncios y autenticación de usuarios.
+
+Tecnologías utilizadas:
+Node.js + Express
+JWT para autenticación
+Swagger para documentación
+Azure App Service para despliegue
+GitHub Actions para CI/CD
+Patrón de diseño: Arquitectura MVC
+
+Endpoints (11):
+
+Swagger:
+https://api-educativa-plataforma-fxdefhfrb7dedzhm.canadacentral-01.azurewebsites.net/api/docs
+
+Despliegue:
+La API está desplegada en Azure App Service con variables de entorno y políticas configuradas.
+
+Cómo ejecutar localmente:
+npm install
+npm run dev
+
+
+Variables requeridas:
+PORT=3000
+JWT_SECRET=pr0y3cto2D1s3n02025*
+
+Autenticación:
+La API requiere Bearer Token generado desde /api/auth/login.
