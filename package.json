@@ -2,9 +2,9 @@
   "name": "proyecto-api-educativa",
   "version": "1.0.0",
   "description": "API educativa con swagger y JWT",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
